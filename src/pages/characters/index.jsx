@@ -15,8 +15,6 @@ export default function Characters({ characters }) {
   )
 }
 
-// SSR - Buscar dados antes de carregar a página (Servidor Node)
-
 export const getStaticProps = async () => {
   const response = await api.get('characters')
 

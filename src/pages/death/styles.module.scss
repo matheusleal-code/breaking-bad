@@ -1,0 +1,32 @@
+.container {
+  border: 2px solid #f2f4f2;
+  width: 50%;
+
+  margin: auto;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+  }
+
+  #bsArrowLeft {
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+
+  .info {
+    margin: 1rem;
+    font-size: 20px;
+    padding: 0.2rem;
+
+    font-weight: 800;
+
+    border: 5px solid #f2f4f2;
+    p {
+      margin-top: 1rem;
+      font-weight: 200;
+    }
+  }
+}

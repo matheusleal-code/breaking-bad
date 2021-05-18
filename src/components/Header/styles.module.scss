@@ -2,6 +2,9 @@
   width: 100%;
   height: auto;
   display: flex;
+  margin: auto;
+
+  overflow-x: hidden;
 
   header {
     nav {
@@ -39,8 +42,12 @@
       }
     }
     img {
-      width: 100%;
+      width: 100vw;
       height: 60vh;
+
+      @media screen and (max-width: 720px) {
+        height: 200px;
+      }
     }
   }
 }

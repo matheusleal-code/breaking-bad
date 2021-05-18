@@ -4,27 +4,40 @@
 
   margin: auto;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 
   flex-direction: column;
-  background-color: red;
 
   position: relative;
 
-  transform: scale(1);
+  transform: scale(0.9);
   transition: 1s;
 
   &:hover {
-    transform: scale(1.1) translateY(-20px);
+    transform: scale(1) translateY(-20px);
+  }
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
   }
 
   img {
     width: 200px;
     height: 300px;
+
+    @media screen and (max-width: 720px) {
+      width: 300px;
+      height: 400px;
+    }
   }
 
   .more {
     position: absolute;
-    bottom: 8%;
+    bottom: 15%;
     width: 200px;
     color: white;
     text-align: center;
@@ -33,32 +46,6 @@
     #angleIconUp {
       font-size: 40px;
       opacity: 1;
-      cursor: pointer;
-      animation: anima 2000ms ease infinite;
-
-      @keyframes anima {
-        to {
-          opacity: 0.9;
-          transform: scale(0.9) translateY(-10px);
-        }
-      }
-    }
-  }
-
-  .less {
-    position: absolute;
-    z-index: 999;
-    bottom: 1;
-    width: 200px;
-    color: white;
-    text-align: center;
-    margin-bottom: 1.2rem;
-
-    opacity: 0.8;
-
-    #angleIconDown {
-      font-size: 40px;
-      opacity: 0.8;
       cursor: pointer;
       animation: anima 2000ms ease infinite;
 
@@ -86,6 +73,11 @@
 
     background-color: rgb(154, 151, 151);
 
+    @media screen and (max-width: 720px) {
+      max-height: 50px;
+      width: 300px;
+    }
+
     &.show {
       max-height: 500px;
       opacity: 0.9;
@@ -97,6 +89,27 @@
       justify-content: center;
       align-items: center;
       margin-bottom: 1rem;
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        p {
+          &:first-child {
+            margin-top: 10px;
+            margin-left: 10px;
+          }
+        }
+
+        #expandMore {
+          margin-right: 10px;
+          color: white;
+          font-size: 20px;
+
+          cursor: pointer;
+        }
+      }
 
       p {
         margin: 0.2rem;
@@ -117,6 +130,16 @@
         margin: 1rem;
 
         border-bottom: 2px solid gray;
+
+        a {
+          color: rgb(176, 18, 18);
+          text-decoration: none;
+          cursor: pointer;
+
+          display: flex;
+          width: 100%;
+          justify-content: flex-end;
+        }
       }
     }
   }

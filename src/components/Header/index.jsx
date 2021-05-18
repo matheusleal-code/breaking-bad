@@ -24,9 +24,6 @@ function Header(props) {
               </Link>
             </li>
             <li>
-              <Link href="/deaths">
-                <a>Mortes</a>
-              </Link>
             </li>
             <li>
               <Link href="/about">
