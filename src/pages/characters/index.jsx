@@ -8,7 +8,7 @@ export default function Characters({ characters }) {
     <div className={styles.container}>
       {characters.map(character => {
         return (
-          <Card name={character.name} birthday={character.birthday} img={character.img} status={character.status} nickname={character.nickname} portrayed={character.portrayed} />
+          <Card key={character.name} name={character.name} birthday={character.birthday} occupation={character.occupation} img={character.img} status={character.status} nickname={character.nickname} portrayed={character.portrayed} />
         )
       })}
     </div>
