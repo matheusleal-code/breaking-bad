@@ -42,9 +42,6 @@ function Card(props) {
               <a>Death Details</a>
             </Link>}
           </div>
-          <div>
-
-          </div>
         </div>
       </div>
     </div>

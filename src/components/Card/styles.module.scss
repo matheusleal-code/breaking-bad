@@ -29,6 +29,7 @@
     width: 200px;
     height: 300px;
 
+    border-radius: 0.4rem;
     @media screen and (max-width: 720px) {
       width: 300px;
       height: 400px;
@@ -69,12 +70,14 @@
     transition: max-height 2s;
     overflow: hidden;
 
-    border-top-right-radius: 1rem;
-
     background-color: rgb(154, 151, 151);
 
+    border-radius: 0 0.4rem 0.4rem 0;
+
+    border-top-right-radius: 1rem;
+
     @media screen and (max-width: 720px) {
-      max-height: 50px;
+      max-height: 60px;
       width: 300px;
     }
 

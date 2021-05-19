@@ -42,8 +42,11 @@ export default function Deaths({ death }) {
           </div>
         </div>
         :
-        <div>
-
+        <div className={styles.container}>
+          <Link href="/characters">
+            <BsArrowLeft id={styles.bsArrowLeft} />
+          </Link>
+          <p id={styles.inexists}>Dados inexistentes</p>
         </div>
       }
     </div>
