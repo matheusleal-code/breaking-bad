@@ -58,8 +58,6 @@ export default function Deaths({ death }) {
 export async function getServerSideProps(context) {
 
   const { slug } = context.params
-  console.log(slug)
-
   const response = await api.get(`death?name=${slug}`)
   const death = await response.data
 

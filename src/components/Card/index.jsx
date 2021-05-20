@@ -38,9 +38,10 @@ function Card(props) {
           <div className={styles.details}>
             <strong>Status</strong>
             <p>{props.status}</p>
-            {props.status != "Alive" && <Link href={`/death/${props.name}`}>
-              <a>Death Details</a>
-            </Link>}
+            {props.status != "Alive" &&
+              <Link href={`/death/${props.name}`}>
+                <a>Death Details</a>
+              </Link>}
           </div>
         </div>
       </div>
