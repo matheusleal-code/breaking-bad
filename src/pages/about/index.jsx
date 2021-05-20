@@ -18,7 +18,7 @@ export default function About() {
       </div>
       <div className={styles.author}>
         <p>This project was developed by Matheus Leal</p>
-        <a href="https://github.com/matheusleal">Github</a>
+        <a href="https://github.com/matheusleal-code">Github</a>
       </div>
     </div>
   )
