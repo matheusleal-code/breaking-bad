@@ -28,11 +28,6 @@ function Header(props) {
               </Link>
             </li>
             <li className={isShow ? styles.item : ""}>
-              <Link href="/episodes">
-                <a onClick={() => setIsShow(false)}> Episodes</a>
-              </Link>
-            </li>
-            <li className={isShow ? styles.item : ""}>
               <Link href="/about">
                 <a onClick={() => setIsShow(false)}> About</a>
               </Link>
