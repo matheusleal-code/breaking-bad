@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About the Project
 
-## Getting Started
+![application running](./public/github/readme.gif)
 
-First, run the development server:
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+<br>
+
+## 🧪 Technologies
+
+This project was developed using the following technologies:
+
+- [React](https://reactjs.org)
+- [Next](https://nextjs.org/)
+- [SCSS](https://sass-lang.com)
+
+## 🔥 Preview
+
+[![Deploy with Vercel](https://vercel.com/button)](https://breaking-bad-topaz.vercel.app/)
+
+## 🚀 Getting started
+
+Clone the project and access the folder
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/matheusleal-code/breaking-bad.git && cd breaking-bad
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow the steps below
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Install the dependencies
+$ npm install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Start the project
+$ npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 💻 Project
 
-## Learn More
+[Breaking Bad](https://apipokemon-2v1bbtiqx-matheusleal-code.vercel.app/) An application about a breaking bad tv show
 
-To learn more about Next.js, take a look at the following resources:
+## Authors
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Matheus Leal**
